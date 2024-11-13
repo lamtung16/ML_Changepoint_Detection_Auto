@@ -25,13 +25,13 @@
   1. Sequence Length 150 to 500: Good performance.
   2. Sequence Length < 50: Not applicable (window size too large).
   3. Long Sequences (>500): Poor performance.
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_1.6.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_12.2.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_106.5.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_106.6.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_189.1.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_20003.2.png)
-![Sequence Image](model\auto_cpd_scratch\figures_cancer\sequence_20092.19.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_1.6.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_12.2.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_106.5.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_106.6.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_189.1.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_20003.2.png)
+![Sequence Image](model/auto_cpd_scratch/figures_cancer/sequence_20092.19.png)
 
 - **Conclusion:**  
   Model performs best when the window size matches the sequence length. Longer sequences require larger windows for effective changepoint detection.
